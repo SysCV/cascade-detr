@@ -2,8 +2,9 @@
 
 Official code of "Cascade-DETR: Delving into High-Quality Universal Object Detection".
 
-Our code is under organization and will be released soon!
+Our code is under organization and will be released soon! More results comparison are in the [paper](https://arxiv.org/abs/2307.11035).
 
+![teaser_fig_cascade-detr](https://github.com/SysCV/cascade-detr/assets/17427852/a160d3b1-c5f6-4672-83e2-30ecc0e0d440)
 
 Citation
 ---------------

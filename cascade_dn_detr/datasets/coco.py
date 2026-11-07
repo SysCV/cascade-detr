@@ -284,12 +284,12 @@ def build(image_set, args):
 
     try:
         strong_aug = args.strong_aug
-    except:
+    except AttributeError:
         strong_aug = False
 
     try:
         fix_size = args.fix_size
-    except:
+    except AttributeError:
         fix_size = False
     dataset = CocoDetection(img_folder, ann_file, 
             transforms=make_coco_transforms(image_set, fix_size=fix_size, strong_aug=strong_aug, args=args), 
